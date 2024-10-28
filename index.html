@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <!--Font Awesome -->
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="trinity/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="trinity">
+
+      <title>Trinity</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="start.html" class="nav__logo">
+               <img src="trinity/logo.png" alt="">
+               
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#HRM" class="nav__link">H, R & M</a>
+                   </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#popular" class="nav__link">Popular</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#explore" class="nav__link">Explore</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="login.html" class="nav__link"><i class="fa-duotone fa-solid fa-lock"></i></a>
+                  </li>
+
+               </ul>
+
+               <!-- Close button -->
+                 <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                 </div>
+            </div>
+
+            <!-- Toggle Button-->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-fill"></i>
+             </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <img src="trinity/halo.jpg" alt="Home Image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__subtitle">
+                     Welcome to Trinity
+                  </h3>
+
+                  <h1 class="home__title">
+                     Curating Journeys, 
+                     <br>
+                     Crafting Memories.
+                  </h1>
+
+                  <p class="home__description">
+                     "Your gateway to unforgettable escapes. From stunning landscapes to rich cultures
+                      . "
+                  </p>
+
+                  <a href="explore.html" class="button">
+                     Ready to explore? <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+
+
+               <div class="home__cards grid">
+                  <article class="home__card">
+                     <img src="trinity/croatia.jpg" alt="" class="home__card-img">
+                     <h3 class="home__card-title">Croatia</h3>
+                        <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="trinity/italy.jpg" alt="" class="home__card-img">
+                     <h3 class="home__card-title">Italy</h3>
+                        <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="trinity/germany.jpg" alt="" class="home__card-img">
+                     <h3 class="home__card-title">Germany</h3>
+                        <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="trinity/paris.jpg" alt="" class="home__card-img">
+                     <h3 class="home__card-title">Paris</h3>
+                        <div class="home__card-shadow"></div>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+
+          <!--============ SEARCH  ================-->
+
+          <section class="search section" id="search">
+          <div class="section__container booking__container section">
+            <div class="booking__nav">
+              <span>Economy Class</span>
+              <span>Business Class</span>
+              <span>First Class</span>
+            </div>
+            <form>
+              <div class="form__group">
+                <span><i class="ri-map-pin-line"></i></span>
+                <div class="input__content">
+                  <div class="input__group">
+                    <input type="text" />
+                    <label>Location</label>
+                  </div>
+                  <p>Where are you gong?</p>
+                </div>
+              </div>
+              <div class="form__group">
+                <span><i class="ri-user-3-line"></i></span>
+                <div class="input__content">
+                  <div class="input__group">
+                    <input type="number" />
+                    <label>Travellers</label>
+                  </div>
+                  <p>Add guests</p>
+                </div>
+              </div>
+              <div class="form__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div class="input__content">
+                  <div class="input__group">
+                    <input type="text" />
+                    <label>Departure</label>
+                  </div>
+                  <p>Add date</p>
+                </div>
+              </div>
+              <div class="form__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div class="input__content">
+                  <div class="input__group">
+                    <input type="text" />
+                    <label>Return</label>
+                  </div>
+                  <p>Add date</p>
+                </div>
+              </div>
+              <button class="btn"><i class="ri-search-line"></i></button>
+            </form>
+         </div>
+         </section>
+
+
+
+      
+      <!--============ SERVICES ================-->
+         <section class="service section" id="service">
+        <div class="ser">
+            <div id="service_section">
+              <h2>Our  Services</h2>
+              <div class="scards">
+
+                <div class="scard">
+                  <i class="fa-solid fa-person-booth"></i>
+                  <div class="content0">
+                    <h3>Room Service</h3>
+                    
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-utensils"></i>
+                  <div class="content0">
+                    <h3>Restaurants</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-car"></i>
+                  <div class="content0">
+                    <h3>Transportation</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-spa"></i>
+                  <div class="content0">
+                    <h3>Spa</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-headset"></i>
+                  <div class="content0">
+                    <h3>Customer Support</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-toilet-paper"></i>
+                  <div class="content0">
+                    <h3>Hygiene Essentials</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-map"></i>
+                  <div class="content0">
+                    <h3>Destination Guides</h3>
+                   
+                  </div>
+                </div>
+
+                <div class="scard">
+                  <i class="fa-solid fa-wallet"></i>
+                  <div class="content0">
+                    <h3>Currency Exchange</h3>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+        
+
+
+         <!--==================== H, M AND R ====================-->
+         <section class="HRM section" id="HRM"> 
+          <div class="container1">
+              <h2 class="section__title">
+                  Secure Your Next Escape!
+               </h2>
+            <div class="card__container">
+               <article class="card__article">
+                  <img src="trinity/resort.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Elegance meets tranquility.</span>
+                     <h2 class="card__title">Resorts</h2>
+                     <a href="resorts.html" class="card__button">Explore further</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="trinity/hotel.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Comfort meets sophistication.</span>
+                     <h2 class="card__title">Hotels</h2>
+                     <a href="hotel.html" class="card__button">Explore further</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="trinity/lodge.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Convenience meets warmth.</span>
+                     <h2 class="card__title">Lodges</h2>
+                     <a href="lodges.html" class="card__button">Explore further</a>
+                  </div>
+               </article>
+            </div>
+         </div>
+         </section>
+
+         <!--==================== PACKAGES ====================-->
+         <section class="pacges section" id="pacges">
+            <div class="banner__container">
+              <div class="banner__wrapper">
+                <img src="trinity/banner.png" alt="" class="banner__img">
+                <div class="banner__content">
+                  <h2 class="section_title">  Explore<br> <span> The World</span></h2>
+                  <div id="booknow"><a href="packages.html">Book Now</a></div>
+                </div>  
+               </div>
+            </div>
+            
+          </section>
+
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     Learn More <br>
+                     About Travel 
+                  </h2>
+
+                  <p class="about__description">
+                     All the trips around he world are a great pleasure and happiness for anyone, enjoy the sights when you travel the world.Travel safely and without worries, get your trip and explore the paradises of the world.
+                  </p>
+
+                  <a href="about.html" class="button">
+                     Explore More <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+
+               <div class="about__image">
+                  <video src="trinity/about.mp4" alt="about image" class="about__img" type="video/mp4" loop autoplay muted>
+                  <div class="about shadow"></div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== POPULAR ====================-->
+         <section class="popular section" id="popular">
+            <h2 class="section__title">
+               Enjoy The Beauty <br>
+               Of The World
+            </h2>
+
+            <div class="popcontainer">
+            <div class="popular__container container grid" id="image-container">
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="trinity/popular-mountain.jpg" alt="" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title">
+                     Logan Mountain
+                  </h2>
+
+                  <div class="popular__location">
+                     <i class="ri-map-pin-line"></i>
+                     <span>Canada</span>
+                  </div>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="trinity/popular-forest.jpg" alt="" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title">
+                     Spike Forest
+                  </h2>
+
+                  <div class="popular__location">
+                     <i class="ri-map-pin-line"></i>
+                     <span>Ireland</span>
+                  </div>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="trinity/popular-lake.jpg" alt="" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title">
+                     Garda Lake
+                  </h2>
+
+                  <div class="popular__location">
+                     <i class="ri-map-pin-line"></i>
+                     <span>Italy</span>
+                  </div>
+               </article>
+
+               
+            </div>
+
+           
+
+            
+            <div id="loadmore">Load More</div>
+            <div id="showless">Show Less</div>
+         </div>
+         </section>
+         
+         <!--==================== EXPLORE ====================-->
+         <section class="explore section" id="explore">
+            <div class="explore__container">
+               <div class="explore__image">
+                  <img src="trinity/join-island.jpg" alt="" class="explore__img">
+                  <div class="explore__shadow"></div>
+               </div>
+
+               <div class="explore__content container grid">
+                  <div class="explore__data">
+                     <h2 class="section__title">
+                        Unveil The <br>
+                        Hidden Serenity
+                     </h2>
+
+                     <p class="explore__descriptiion">
+                        Unveil hidden gems as you explore the world’s most captivating places. 
+                        From vibrant cities to serene landscapes, each destination offers a 
+                        new discovery. Step beyond the ordinary and 
+                        embark on a journey through breathtaking beauty and rich culture 
+                     </p>
+                  </div>
+
+                  <div class="explore__user">
+                     <img src="trinity/explore-perfil.png" alt="" class="explore__perfil">
+                     <span class="explore__name">Avery Grambs</span>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+             <div class="join__container container grid">
+               <div class="join__data">
+                  <h2 class="section__title">
+                     A New <br>
+                     Chapter Unfolds
+                  </h2>
+
+                  <p class="join__description">
+                     Embark on an exquisite journey, where curated 
+                     itineraries unveil the world’s wonders and promise 
+                     unforgettable experiences
+                  </p>
+
+                  <form action="" class="join__form">
+                  <input type="email" placeholder="Enter Your E-mail" class="join__input">
+
+                  <button class="join__button button">
+                     Enlist For Our Insights <i class="ri-arrow-right-line"></i>
+                  </button>
+               </form>
+               </div>
+
+               <div class="join__image">
+                  <img src="trinity/join.jpg" alt="" class="join__img">
+                  <div class="join__shadow"></div>
+               </div>
+             </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <div>
+                  <a href="#" class="footer__logo">Travel</a>
+
+                  <p class="footer__description">
+                     Travel with us to discover captivating <br> 
+                     destinations and create lasting memories.
+                  </p>
+               </div>
+
+               <div class="footer__data grid">
+                  <div>
+                     <h3 class="footer__title">About</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="about.html" class="footer__link">About Us</a>
+                        </li>
+
+                         <li>
+                           <a href="#service" class="footer__link">Features</a>
+                        </li>
+
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Company</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="FAQs.html" class="footer__link">FAQs</a>
+                        </li>
+
+                         
+                        <li>
+                           <a href="book now.html" class="footer__link">Payments</a>
+                        </li>
+
+                       
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Contact</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="testimonials.html" class="footer__link">Testimonials</a>
+                        </li>
+
+                         <li>
+                           <a href="contact.html" class="footer__link">Contact Us</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Support</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="prp.html" class="footer__link">Privacy Policy</a>
+                        </li>
+
+                         <li>
+                           <a href="tac.html" class="footer__link">Terms & Conditions</a>
+                        </li>
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="footer__group">
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-line"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>  
+                  </a>
+
+                  <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-twitter-line"></i>
+                  </a>
+
+                  <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-line"></i>
+                  </a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169: Copyright Trinity. All rights reserved
+               </span>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
