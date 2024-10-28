@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url();
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(trinity/tacbg1.jpg);
+}
+
+
+.terms-box{
+    max-width: 460px;
+    background-color: #111;
+    color: #fff;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+}
+
+.terms-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+.terms-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #282828;
+}
+.terms-text::-webkit-scrollbar-thumb{
+    background-color: #425793;
+}
+
+.terms-text h2{
+    text-transform: uppercase;
+}
+.terms-box h4{
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.terms-box h4 span{
+    color: #3d5696;
+}
+
+/*.buttons{
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+}
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s linear;
+}
+
+.red-btn{
+    background-color: #385187;
+}
+
+.gray-btn{
+    background-color: #282828;
+}
+
+.btn:hover{
+    opacity: .6;
+}*/
+
+
+.btn{
+    padding: 5px 25px;
+    background: #436d79;
+    border: 0;
+    width: calc(50% - 6px);
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding-right: 30px;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -400px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 80%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 30%;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    color: #7ab0cf;
+    border: 1px dashed #7ab0cf;
+}
+.popup h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7ab0cf;
+    color: #000;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

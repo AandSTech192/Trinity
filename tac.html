@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms Of Services</title>
+    <link rel="stylesheet" href="tac.css">
+</head>
+<body>
+    <div class="terms-box">
+        <div class="terms-text">
+            <h2>Terms Of Services</h2>
+            <p>Greetings Users,</p>
+            <p>Welcome to Trinity! By using our website, you agree to comply with and be bound by the following terms and conditions of use, which govern Trinity’s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.</p>
+            <p>By accessing or using the Trinity website, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions, as well as our privacy policy. If you do not agree to these terms, you are not authorized to use the site.</p>
+            <p>Trinity reserves the right to change these terms and conditions at any time. Changes will take effect immediately upon being posted on the website. It is your responsibility to review the terms regularly for any updates or changes.</p>
+            <p>Eligibility: You must be at least 18 years old and possess the legal authority to enter into contracts to use our services.
+                Prohibited Activities: You may not use the site to:
+                Distribute spam or unsolicited promotional or commercial content.
+                Engage in any illegal activity.
+                Use any automated system (such as bots or crawlers) to access the site.
+                Interfere with or disrupt the site's operation or security.</p>
+            <p>Trinity may provide links to third-party travel providers or other websites. These links are provided for your convenience. We do not have control over these sites and are not responsible for their content or services. Any transactions made via third-party websites are at your own risk and subject to the terms and conditions of those websites.            </p>
+        </div>
+        <h4>I Agree to the <span>Terms of Services</span> and I read the Privacy Notice.</h4>
+        <div class="buttons">
+            <!--<button class="btn red-btn">Accept</button>*/-->
+
+
+            <button class="btn gray-btn"><a href="index.html">Decline</a></button>
+
+
+
+            <button type="submit" class="btn" onclick="openPopup()">Accept</button>
+                    <div class="popup" id="popup">
+                        <img src="Index/tick.jpg">
+                        <h2>Thank You!</h2>
+                        <p>You've accepted the  
+                        <br> terms and conditions
+                        <br> of Trinity
+                        </p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+    <script>
+        let popup = document.getElementById("popup");
+    
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    
+    </script>
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
